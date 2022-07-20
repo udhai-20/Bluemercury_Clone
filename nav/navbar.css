@@ -1,0 +1,196 @@
+
+#container{
+ width: 100%;
+ /* border: 1px solid rgb(184, 0, 0); */
+ display: flex;
+ justify-content: space-around;
+ margin: auto;
+
+ }
+#container>div{
+width: 30%;
+/* border: 5 px solid red; */
+ }
+ #right #icon{
+   margin-right: 10px;
+     font-size: 20px;
+   /* border: 1px solid red; */
+}
+#left #dir{
+    margin-right: 5px;
+      font-size: 23px;
+    /* border: 1px solid red; */
+ }
+ #right #user{
+  margin-right: 5px;
+      font-size: 20px;
+  /* border: 1px solid red; */
+}
+#right #search{
+  margin-right: 5px;
+  font-size: 20px;
+  /* border: 1px solid red; */
+}
+#right #bag{
+  margin-right: 5px;
+  font-size: 20px;
+  /* border: 1px solid red; */
+}
+
+#left{
+align-items: center;
+ font-family: Montserrat Medium,sans-serif;
+ text-transform: uppercase;
+ margin-top: 30px;
+ display: inline-block;
+ color: #12284c;
+ font-weight: 500;
+ letter-spacing: 1px;
+text-transform: uppercase;
+  }
+#mid>img{
+width:60%;
+display: block;
+margin: auto;
+margin-top: 30px;
+}
+#right>ul{
+display: flex;
+justify-content: space-around;
+text-decoration: none;
+list-style: none;
+
+}
+#right>li{
+font-family: Montserrat Medium,sans-serif;
+justify-content: space-around;
+     
+}
+
+#right>ul>li>a{
+text-decoration: none;
+color: #12284c;
+letter-spacing: 1px;
+font-size: 10px;
+text-transform: uppercase;         
+}
+
+#left>p>a{
+text-decoration: none;
+color: #12284c;
+letter-spacing: 1px;
+font-size: 10px;
+text-transform: uppercase;         
+}
+/* <!-- nav details --> */
+#mainnav{
+width: 100%;
+/* border: 1px solid rgb(29, 161, 49); */
+display: flex;
+justify-content: center;
+margin-top: 20px;
+
+
+}
+#mainnav>ul{
+display: flex;
+text-decoration: none;
+margin: auto;
+padding: 10px;
+list-style: none;
+   
+} 
+#mainnav>ul>li>a{
+ text-decoration: none;
+ color: #7b8493;
+letter-spacing: 1px;
+font-size: 15px;
+padding: 30px;
+text-transform: uppercase;
+font-family:  Montserrat Medium,sans-serif;
+font-weight: 500;         
+} 
+#mainnav>ul>li>a:hover{
+color: #12284c;
+border-top: 1px solid #12284c;
+}
+#submenuforshop{
+  display: none;
+}
+#mainnav>ul>li:hover #submenuforshop {
+  display: block;
+  position: absolute;
+  background-color:white;
+  margin-top:15px ;
+  margin-left: -15px;
+
+}
+#mainnav>ul>li:hover #submenuforshop ul li {
+  display: block;
+  margin: 10px;
+  list-style: none;
+}
+#submenuforshop ul li a{
+  text-decoration: none;
+  font-size: smaller;
+  color: #7b8493;
+   font-weight: 100;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+#submenuforshop ul li a:hover{
+  color: #12284c;
+   font-weight: 100;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+.fa-angle-right{
+  float: right;
+}
+.submenuforskin {
+  display: none;
+}
+.submenuforskin2 {
+  display: none;
+}
+.hoversubmenu2:hover .submenuforskin  {
+  display: block;
+  position: absolute;
+  width:120%;
+  margin-top: -30px;
+  margin-left: 180px;
+
+}
+.hoversubmenu2:hover .submenuforskin2{
+  display: block;
+  width:120%;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 330px;
+
+}
+#hoverimg{
+  display: none;
+ 
+ 
+}
+.hoversubmenu2:hover #hoverimg{
+  position: absolute;
+  display: block;
+  /* border: 1px solid red; */
+ margin-top: -180px;
+  margin-left: 400px;
+}
+h4{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 300;
+margin-top: -2px;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:100;
+  font-size: smaller;
+  margin-top: -20px;
+  }
+  
+
