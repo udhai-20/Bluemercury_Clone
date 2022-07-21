@@ -18,7 +18,7 @@ width: 30%;
 }
 #left #dir{
     margin-right: 5px;
-      font-size: 23px;
+    font-size: 23px;
     /* border: 1px solid red; */
  }
  #right #user{
@@ -139,7 +139,7 @@ border-top: 1px solid #12284c;
    
 }
 #submenuforshop ul li a:hover{
-   color: #12284c;
+  color: #12284c;
    font-weight: 100;
    font-family: Arial, Helvetica, sans-serif;
    
@@ -159,7 +159,6 @@ border-top: 1px solid #12284c;
   width:120%;
   margin-top: -30px;
   margin-left: 180px;
-
 }
 .hoversubmenu2:hover .submenuforskin2{
   display: block;
@@ -171,8 +170,7 @@ border-top: 1px solid #12284c;
 }
 #hoverimg{
   display: none;
- 
- 
+  
 }
 .hoversubmenu2:hover #hoverimg{
   position: absolute;
@@ -193,4 +191,140 @@ p{
   margin-top: -20px;
   }
   
+  .submenuformakup {
+    display: none;
+  }
+  .submenuformakup2 {
+    display: none;
+  }
+  .hoversubmenu3:hover .submenuformakup  {
+    display: block;
+    position: absolute;
+    width:120%;
+    margin-top: -50px;
+    margin-left: 150px;
+  }
+  
+  .hoversubmenu3:hover .submenuformakup2  {
+    display: block;
+    width:120%;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 400px;
+  }
+  #hoverimgformarkup{
+    display: none;
+    
+  }
+  .hoversubmenu3:hover #hoverimgformarkup{
+    position: absolute;
+    display: block;
+    /* border: 1px solid red; */
+   margin-top: -220px;
+    margin-left: 300px;
+  }
+  h4{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  margin-top: -2px;
+  }
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:100;
+    font-size: smaller;
+    margin-top: -20px;
+    }
+    
+    /* ////hair/// */
 
+    
+  .submenuforhair {
+    display: none;
+  }
+  .submenuforhair2 {
+    display: none;
+  }
+  .hoversubmenu4:hover .submenuforhair  {
+    display: block;
+    position: absolute;
+    width:120%;
+    margin-top: -80px;
+    margin-left: 120px;
+  }
+   
+  .hoversubmenu4:hover .submenuforhair2 {
+    display: block;
+    width:120%;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 300px;
+  }
+  #hoverimgforhair{
+    display: none;
+    
+  }
+  .hoversubmenu4:hover #hoverimgforhair{
+    position: absolute;
+    display: block;
+    /* border: 1px solid red;  */
+   margin-top: -200px;
+    margin-left: 300px;
+  }
+  h4{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  margin-top: -2px;
+  }
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:100;
+    font-size: smaller;
+    margin-top: -20px;
+    } 
+     
+    /* bath */
+
+    
+  .submenuforbath {
+    display: none;
+  }
+  .submenuforbath2 {
+    display: none;
+  }
+  .hoversubmenu5:hover .submenuforbath  {
+    display: block;
+    position: absolute;
+    width:120%;
+    margin-top: -80px;
+    margin-left: 120px;
+  }
+   
+  /* .hoversubmenu5:hover .submenuforbath2 {
+    display: block;
+    width:120%;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 300px;
+  } */
+  /* #hoverimgforbath{
+    display: none;
+    
+  }
+  .hoversubmenu5:hover #hoverimgforbath{
+    position: absolute;
+    display: block;
+    /* border: 1px solid red;  */
+   /* margin-top: -200px;
+    margin-left: 300px;
+  }
+  h4{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  margin-top: -2px;
+  }
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:100;
+    font-size: smaller;
+    margin-top: -20px;
+    }  */ 
