@@ -5,6 +5,7 @@
   justify-content: space-around;
   margin: auto;
 
+
 }
 
 #container>div {
@@ -155,10 +156,12 @@ p {
 
 }
 
+
 #slidingnav p {
   margin: auto;
   text-align: center;
   padding: 5px;
+
 }
 
 #slidings {
@@ -193,6 +196,7 @@ img {
 
 }
 
+
 /* id="sliding1"  MID SECTION*/
 
 #sliding1 h2 {
@@ -204,6 +208,7 @@ img {
   margin-bottom: -15px;
   color: #12284c;
   /* border: 1px solid red; */
+
 }
 
 #child {
@@ -339,6 +344,7 @@ img {
   font-size: 15px;
 }
 
+
 /* offersection */
 #offer {
   display: flex;
@@ -380,3 +386,5 @@ img {
   text-decoration: none;
   color: #12284c;
 }
+
+
