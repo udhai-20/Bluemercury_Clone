@@ -15,18 +15,12 @@ function singnup(e) {
     pass: pass,
   };
   arr.push(obj);
+
   if (email == "" && pass == "" && name1 == "") {
     alert("please enter input field");
-  }
-  if (email == "" && pass != "") {
-    alert("plese enter email");
-  }
-
-  if (email !== "" && pass == "") {
-    alert("plese enter pass");
   } else if (email !== "" && pass !== "" && name1 !== "") {
     window.location.href = "login.html";
+    localStorage.setItem("useremail", JSON.stringify(arr));
   }
-  localStorage.setItem("useremail", JSON.stringify(arr));
   console.log(arr);
 }

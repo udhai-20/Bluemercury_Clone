@@ -1,6 +1,6 @@
 /* // css parts// */
 
-#signup{
+#signup {
     width: 40%;
     margin: auto;
     margin-top: 20px;
@@ -8,8 +8,9 @@
     height: auto;
     /* background-image: linear-gradient(to right, rgba(196, 132, 132, 0), rgb(212, 27, 27));
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
-    }
-#head{
+}
+
+#head {
     display: block;
     font-size: 34px;
     line-height: 29px;
@@ -18,25 +19,28 @@
     color: #12284c;
     font-style: normal;
     text-align: center;
-    font-family: Montserrat Regular,sans-serif;
+    font-family: Montserrat Regular, sans-serif;
     font-style: normal;
     transition: color .2s ease-in-out;
     text-align: center;
 }
-form{
-   padding: 35px;
-  
+
+#signup form {
+    padding: 35px;
+
 }
-form>input{
+
+#signup>input {
     margin: auto;
     margin-top: 10px;
-    margin-bottom:2px;
+    margin-bottom: 2px;
     width: 100%;
-    padding: 15px ;
+    padding: 15px;
     border-radius: 5px;
-    border:1px solid #12284c;
+    border: 1px solid #12284c;
 }
-button{
+
+#signup button {
     display: block;
     margin: auto;
     padding: 15px;
@@ -45,7 +49,8 @@ button{
     font-size: 14px;
     background-color: #12284c;
 }
-#p{
+
+#signup #p {
     width: 70%;
     text-align: center;
     font-size: 16px;
@@ -55,113 +60,142 @@ button{
     text-decoration: transparent;
     margin-bottom: 0%;
     margin: auto;
-   
+
 }
-#final{
+
+#final {
     text-align: right;
     margin-top: 5px;
     font-style: normal;
     color: #12284c;
     font-size: 10px;
-    font-family: Montserrat Regular,sans-serif;
+    font-family: Montserrat Regular, sans-serif;
 }
-#validation{
-  width: 100%;
-  border: 1px solid green;
-  display: flex;
-  justify-content: space-between;
-  background-color: #d1e8ee;
-  padding: 5px;
-  margin: auto;
+
+#validation {
+    width: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #d1e8ee;
+    padding: 5px;
+    margin: auto;
+    margin-left: 10px;
 
 }
-#validation>div>p{
+
+#validation>div>p {
     color: #5e769b;
     font-size: 15px;
 }
-#j>p{
-font-family: 'Dancing Script', cursive;
-margin: 10px;
-font-size: 15px;
-color: #12284c;
-}   
-#ptag>p{
-text-align: center;
-margin: 10px;
-color: #666;
-   }
-span{
+
+#j>p {
+    font-family: 'Dancing Script', cursive;
+    margin: 10px;
+    font-size: 15px;
+    color: #12284c;
+}
+
+#earn>p {
+    text-align: center;
+    margin: 10px;
+    color: #666;
+}
+
+span {
     text-decoration: underline;
 }
-#atag{
+
+#ref {
     background-color: transparent;
     text-decoration: none;
     color: #666;
     background-color: #12284c
 }
-a:hover{
+
+#ref:hover {
     background-color: transparent;
     text-decoration: none;
     color: rgb(40, 76, 131);
     transition: 5 sec;
 }
-.agree{
-margin-top: 20px;
-text-align: center;
-color: #666;
-}
-.sign{
+
+.agree {
     margin-top: 20px;
     text-align: center;
     color: #666;
- }
-    
- /* footer area */
+}
 
- #footer{
+.sign {
+    margin-top: 20px;
+    text-align: center;
+    color: #666;
+}
+
+/* footer area */
+#footer {
     display: flex;
     width: 100%;
     height: auto;
     bottom: 0;
-    /* border: 1px solid red; */
     justify-content: space-between;
     align-items: flex-start;
     padding: 5px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
-   
-       
- }
- #footer>div{
-    width:18%;
+}
+
+#footer>div {
+    width: 18%;
     /* border: 1px solid green; */
- 
- }
-
-#colone{
-   display: flex;
-   flex-direction: column;
-   align-content: space-between;
-   color: #12284c; ;
-}
-.col2>input{ 
-    margin-top: -10px;
-    margin-bottom: 10px;
-     padding: 3px;
-    border-top:0px;
-    border-left:0px;
-    border-right:0px;
-    width: 90%;
 }
 
-.col2>ul{
+#colone {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    color: #12284c;
+}
+
+.col2>ul {
     display: block;
     width: 100%;
     list-style: none;
 }
-.col2 li{
+
+.col2 li {
     line-height: 30px;
-    color: #12284c; 
+    color: c;
     margin: auto;
-   font-family: Montserrat Regular,sans-serif;
-   text-decoration: none;
+    font-family: Montserrat Regular, sans-serif;
+    text-decoration: none;
+}
+
+#media {
+    display: flex;
+    font-size: medium;
+    /* border: 1px solid red; */
+    margin-bottom: 30px;
+    font-size: 25px;
+    justify-content: space-around;
+    margin-top: -20px;
+}
+
+#ptag p {
+    width: 120%;
+    text-align: left;
+    font-size: 11px;
+    font-family: Montserrat Regular, sans-serif;
+}
+
+#colone input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0;
+
+}
+
+#ptag {
+    margin-top: -20px;
 }

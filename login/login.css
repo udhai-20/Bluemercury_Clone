@@ -1,16 +1,17 @@
 /* // css parts// */
 
-#formforsignup{
+#formforsignup {
 
     width: 40%;
     margin: auto;
     margin-top: 40px;
-    /* border:1px solid #12284c; */
- }
+    margin-bottom: 50px;
+    /* border: 1px solid #12284c; */
+}
 
-#head{
+#head {
     display: block;
-    font-family: Montserrat Regular,sans-serif;
+    font-family: Montserrat Regular, sans-serif;
     font-size: 34px;
     letter-spacing: 1px;
     line-height: 29px;
@@ -18,58 +19,59 @@
     text-transform: uppercase;
 }
 
-form>input{
+form>input {
     margin: auto;
     margin-top: 10px;
-    margin-bottom:20px;
+    margin-bottom: 10px;
     width: 95%;
     padding: 12px 14px;
     border-radius: 5px;
-    border:1px solid #12284c;
+    border: 1px solid #12284c;
 }
-button{
+
+button {
     position: relative;
     width: 100%;
     display: inline-block;
     padding: 15px;
+    margin-bottom: 5px;
     border-radius: 0;
     text-transform: uppercase;
     text-align: center;
-    font-family: Montserrat Semi Bold,sans-serif;
+    font-family: Montserrat Semi Bold, sans-serif;
     font-size: 14px;
     line-height: 14px;
-    transition: color .45s cubic-bezier(.785,.135,.15,.86),border .45s cubic-bezier(.785,.135,.15,.86);
+    transition: color .45s cubic-bezier(.785, .135, .15, .86), border .45s cubic-bezier(.785, .135, .15, .86);
     z-index: 1;
     -webkit-tap-highlight-color: black;
     color: #fff;
     background-color: #12284c;
 }
 
-#creat{
+#creat {
     margin: 10px;
     text-align: center;
     color: #12284c;
-    font-family: Montserrat Light,sans-serif;
+    font-family: Montserrat Light, sans-serif;
     letter-spacing: .2px
 }
-.logedin{
+
+.logedin {
     color: rgb(23, 30, 228);
     font-size: larger;
     font-weight: 900;
 }
-span{
+
+span {
     color: inherit;
     background-color: transparent;
-    color:rgb(23, 30, 228);
-     text-align: center;
+    color: rgb(23, 30, 228);
+    text-align: center;
     font-weight: 700;
     text-decoration: underline;
 }
 
-#pass{
+#pass {
     transition: border-color .1s ease-in-out;
     background: transparent;
 }
-
-
-
