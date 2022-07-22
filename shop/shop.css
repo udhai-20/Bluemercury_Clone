@@ -1,0 +1,39 @@
+#container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+    flex-direction: row;
+    padding: 15px;
+
+}
+
+#container>#left {
+    width: 20%;
+    height: 100%;
+    border: 1px solid rgb(150, 26, 148);
+    margin: auto;
+}
+
+#container>.right {
+    width: 70%;
+    height: 100%;
+    border: 1px solid rgb(21, 34, 183);
+    margin: auto;
+}
+
+#container .right {
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, auto);
+    gap: 50px;
+}
+
+.right div {
+    border: 1px solid rgb(21, 183, 37);
+}
+
+.right img {
+    width: 100%;
+}
