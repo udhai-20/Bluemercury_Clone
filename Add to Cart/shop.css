@@ -1,0 +1,152 @@
+#container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+    flex-direction: row;
+    padding: 15px;
+
+}
+
+* {
+    color: #12284c;
+}
+
+/* left side */
+#container>#left {
+    width: 25%;
+    height: 100%;
+    /* border: 1px solid rgb(150, 26, 148); */
+    margin: auto;
+    margin-top: 0px;
+}
+
+#left>div>h3 {
+    color: #12284c;
+    font-weight: 100;
+}
+
+#left>div>h3>a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Montserrat Light, sans-serif;
+    /* background-color: #12284c; */
+}
+
+#left>div>ul {
+    list-style: none;
+    font-family: Montserrat Light, sans-serif;
+}
+
+#left>div>ul>li {
+    padding: 8px;
+    margin-left: -45px;
+    color: #12284c;
+    font-family: Montserrat Light, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: .2px;
+
+    text-transform: capitalize;
+}
+
+#left>div>ul>li>a {
+    text-decoration: none;
+}
+
+
+#left h5+p {
+    font-size: 10px;
+    color: #12284c;
+    font-family: Montserrat Light, sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: .14px;
+    margin-top: -20px;
+    text-transform: none;
+    /* background-color: #12284c; */
+}
+
+#left h3+h5 {
+    font-family: Montserrat Light, sans-serif;
+    text-decoration: none;
+    font-weight: 100;
+
+}
+
+/* right */
+#container>.right {
+    width: 73%;
+    height: 100%;
+    /* border: 1px solid rgb(21, 34, 183); */
+    margin: auto;
+    text-align: center;
+}
+
+#container .right {
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, auto);
+    gap: 20px;
+}
+
+/* .right div {
+    border: 1px solid rgb(21, 183, 37);
+} */
+
+.right img {
+    width: 100%;
+}
+
+.right p {
+    font-size: 13px;
+    color: #12284c;
+    font-family: Montserrat Light, sans-serif;
+
+
+}
+
+/* filter section */
+#left #filterbybrand,
+#filterbyprice,
+#filterbystock,
+#filterbysize {
+    padding: 10px 12px;
+    width: 100%;
+    margin-bottom: 20px;
+
+
+}
+
+#filter1 h5 {
+    font-family: Montserrat Light, sans-serif;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#filter1 hr {
+    margin-bottom: 30px;
+}
+
+/* //button */
+
+.right button {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #dfe2e6;
+    border: 0px;
+}
+
+.right button:hover {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #759bd3;
+    border: 0px;
+    color: aliceblue;
+}

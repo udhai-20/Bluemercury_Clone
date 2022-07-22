@@ -1,0 +1,97 @@
+#main {
+    display: flex;
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+    flex-direction: row;
+    padding: 15px;
+}
+
+/* left side */
+#main>#cartleft {
+    width: 25%;
+    height: 100%;
+
+    margin: auto;
+    margin-top: 0px;
+}
+
+* {
+    color: #12284c;
+}
+
+#main>#cartright {
+    width: 73%;
+    height: 100%;
+    border-left: 2px solid rgb(149, 69, 69);
+    margin: auto;
+    text-align: center;
+}
+
+#cartright {
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, auto);
+    gap: 20px;
+}
+
+/* #cartright div {
+    border: 1px solid rgb(21, 183, 62);
+
+} */
+
+#cartright img {
+    width: 100%;
+}
+
+#checkout {
+    padding: 10px 60px;
+    margin-bottom: 40px;
+    background-color: rgb(110, 110, 206);
+    border: 0;
+}
+
+#PayPal {
+    padding: 10px 60px;
+    margin-bottom: 40px;
+    background-color: rgb(110, 110, 206);
+    border: 0;
+}
+
+#remove {
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    background-color: rgb(110, 110, 206);
+    border: 0;
+}
+
+#addqty {
+    padding: 10px 14px;
+    color: azure;
+    font-weight: 600;
+    font-size: large;
+    margin-left: 10px;
+    background-color: rgb(110, 206, 123);
+    border: 0;
+}
+
+#deductqty {
+    padding: 10px 14px;
+    color: azure;
+    font-weight: 600;
+    font-size: large;
+    margin-left: 10px;
+    background-color: rgb(110, 206, 123);
+    border: 0;
+}
+
+#promocode {
+    padding: 10px 30px;
+}
+
+#apply {
+    padding: 10px 30px;
+    background-color: rgb(110, 110, 206);
+    border: 0px;
+}
