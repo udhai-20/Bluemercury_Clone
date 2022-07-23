@@ -1,0 +1,39 @@
+#wishlistcontainer {
+    display: grid;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, auto);
+    /* border: 2px solid red; */
+    text-align: center;
+    line-height: 25px;
+    gap: 20px;
+}
+
+#wishlistcontainer div {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+
+#wishprodlist h1,
+#wishprodlist h4 {
+    /* border: 1px solid red; */
+    color: #12284c;
+    margin: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+#wishlistcontainer button {
+    padding: 10px 15px;
+    background-color: rgb(219, 201, 201);
+
+    border: 0cm;
+
+}
+
+#wishlistcontainer button:hover {
+    padding: 10px 15px;
+    background-color: #4569a3;
+    border: 0cm;
+    color: #fff;
+}

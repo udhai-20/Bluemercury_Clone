@@ -1,19 +1,18 @@
-#container {
+#brandcontainer {
     display: flex;
     width: 100%;
     height: auto;
     /* border: 1px solid red; */
     flex-direction: row;
     padding: 15px;
-
 }
 
 * {
     color: #12284c;
 }
 
-/* left side */
-#container>#left {
+/* brandleft side */
+#brandcontainer>#brandleft {
     width: 25%;
     height: 100%;
     /* border: 1px solid rgb(150, 26, 148); */
@@ -21,24 +20,24 @@
     margin-top: 0px;
 }
 
-#left>div>h3 {
+#brandleft>div>h3 {
     color: #12284c;
     font-weight: 100;
 }
 
-#left>div>h3>a {
+#brandleft>div>h3>a {
     text-decoration: none;
     font-size: 14px;
     font-family: Montserrat Light, sans-serif;
     /* background-color: #12284c; */
 }
 
-#left>div>ul {
+#brandleft>div>ul {
     list-style: none;
     font-family: Montserrat Light, sans-serif;
 }
 
-#left>div>ul>li {
+#brandleft>div>ul>li {
     padding: 8px;
     margin-left: -45px;
     color: #12284c;
@@ -50,12 +49,12 @@
     text-transform: capitalize;
 }
 
-#left>div>ul>li>a {
+#brandleft>div>ul>li>a {
     text-decoration: none;
 }
 
 
-#left h5+p {
+#brandleft h5+p {
     font-size: 10px;
     color: #12284c;
     font-family: Montserrat Light, sans-serif;
@@ -68,15 +67,15 @@
     /* background-color: #12284c; */
 }
 
-#left h3+h5 {
+#brandleft h3+h5 {
     font-family: Montserrat Light, sans-serif;
     text-decoration: none;
     font-weight: 100;
 
 }
 
-/* right */
-#container>.right {
+/* /* brandright * */
+#brandcontainer>.brandright {
     width: 73%;
     height: 100%;
     /* border: 1px solid rgb(21, 34, 183); */
@@ -84,7 +83,7 @@
     text-align: center;
 }
 
-#container .right {
+#brandcontainer .brandright {
     display: grid;
     margin: auto;
     grid-template-columns: repeat(4, 1fr);
@@ -92,24 +91,25 @@
     gap: 20px;
 }
 
-/* .right div {
+/* .brandright div {
     border: 1px solid rgb(21, 183, 37);
 } */
 
-.right img {
+.brandright img {
     width: 100%;
 }
 
-.right p {
+.brandright p {
     font-size: 13px;
     color: #12284c;
     font-family: Montserrat Light, sans-serif;
+    margin-top: 10px;
 
 
 }
 
 /* filter section */
-#left #filterbybrand,
+#brandleft #filterbybrand,
 #filterbyprice,
 #filterbystock,
 #filterbysize {
@@ -134,16 +134,17 @@
 
 /* //button */
 
-.right button {
-    padding: 10px 20px;
+.brandright button {
+    padding: 10px 10px;
     margin-bottom: 10px;
     border-radius: 10px;
+    margin-left: 20px;
     background-color: #dfe2e6;
     border: 0px;
 }
 
-.right button:hover {
-    padding: 10px 20px;
+.brandright button:hover {
+    padding: 10px 15px;
     margin-bottom: 10px;
     border-radius: 10px;
     background-color: #759bd3;
