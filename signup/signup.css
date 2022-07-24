@@ -27,7 +27,7 @@
 
 #signup form {
     padding: 35px;
-
+    /* llkk */
 }
 
 #signup>input {
@@ -100,10 +100,6 @@
     text-align: center;
     margin: 10px;
     color: #666;
-}
-
-span {
-    text-decoration: underline;
 }
 
 #ref {

@@ -218,6 +218,8 @@ let ProductData = [
 ];
 
 let details = JSON.parse(localStorage.getItem("cartdetails")) || [];
+let wishdetails = JSON.parse(localStorage.getItem("whishlist")) || [];
+
 display(ProductData);
 
 function display(data) {
@@ -238,7 +240,12 @@ function display(data) {
     bagbtn.addEventListener("click", function () {
       cartbtn(elem, i);
     });
-    prod.append(img, brand, name, price, bagbtn);
+    let wishbtn = document.createElement("button");
+    wishbtn.innerText = "Wishlist";
+    wishbtn.addEventListener("click", function () {
+      wishlistbtn(elem, i);
+    });
+    prod.append(img, brand, name, price, bagbtn, wishbtn);
     document.querySelector(".right").append(prod);
   });
 }
@@ -312,6 +319,7 @@ function filterprice() {
     if (select === "filterbyprice") {
       // console.log(ProductData);
       display(ProductData);
+      window.location.reload();
     }
   }
 }
@@ -332,4 +340,29 @@ function cartbtn(elem, i) {
   }
 
   console.log(details);
+}
+let loginuser = JSON.parse(localStorage.getItem("login"));
+
+if (loginuser != null) {
+  let name = document.getElementById("username");
+  name.style.color = "blue";
+  name.innerText = loginuser.name1;
+}
+
+function wishlistbtn(elem, i) {
+  let flag = "false";
+  for (let i = 0; i < wishdetails.length; i++) {
+    if (elem.productID === wishdetails[i].productID) {
+      flag = "true";
+    }
+  }
+  if (flag == "true") {
+    alert("Product Already added to wishlist");
+  } else if (flag == "false") {
+    alert("Product added to wishlist");
+    wishdetails.push(elem);
+    localStorage.setItem("whishlist", JSON.stringify(wishdetails));
+  }
+
+  console.log(wishdetails);
 }

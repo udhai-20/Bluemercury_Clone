@@ -24,3 +24,11 @@ function singnup(e) {
   }
   console.log(arr);
 }
+
+let loginuser = JSON.parse(localStorage.getItem("login"));
+
+if (loginuser != null) {
+  let name = document.getElementById("username");
+  name.style.color = "blue";
+  name.innerText = loginuser.name1;
+}

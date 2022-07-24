@@ -2,15 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
-    <link rel="stylesheet" href="login.css" />
-    <link rel="stylesheet" href="/signup.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="wishlist.css">
+    <link rel="stylesheet" href="signup.css" />
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="index.css" />
-
 </head>
 
 <body>
@@ -20,8 +19,9 @@
             </p>
             </a>
         </div>
+
         <div id="mid">
-            <a href="index.html">
+            <a href="/index.html">
                 <img src="https://cdn.shopify.com/s/files/1/0283/0185/2747/files/bluemercury-logo_1216x.png?v=1648743182"
                     alt=""></a>
         </div>
@@ -29,20 +29,21 @@
             <ul>
                 <li><a href="wishlist.html"><i id="icon" class="fa fa-heart-o"></i>Wishlist</a></li>
                 <div>
+
                 </div>
                 <li><a href="#"><i id="search" class="fa fa-refresh"></i>search</a> </li>
-                <li><i id="user" class="fa fa-user-circle-o"></i><a id="username" href="login.html"> Sign
-                        in/UP</a>
+                <li><i id="user" class="fa fa-user-circle-o"></i><a id="username" href="/login.html"> Sign in/UP</a>
                 </li>
                 <li><a href="cart.html"><i id="bag" class="fa fa-upload"></i> bag</a> </li>
             </ul>
         </div>
+
     </div>
     <!-- nav details -->
     <div id="mainnav">
         <ul>
-            <li><a href="shop.html">shop</a> </li>
-            <li class=""><a href="newbrand.html">new!</a> </li>
+            <li><a href="shop.html">shop</a></li>
+            <li><a href="newbrand.html">new!</a> </li>
             <li><a href="#">brands</a></li>
             <li><a href="#">explore</a> </li>
             <li><a href="#">events</a> </li>
@@ -50,24 +51,21 @@
             <li><a href="#">beauty alfresco</a> </li>
         </ul>
     </div>
-    <div id="formforsignup">
-        <form>
-            <label id="head" for="">login</label> <br />
-            <p style="text-align: center; margin-top: 10px; color: #12284c ;">Please enter your e-mail and password:</p>
-            <!-- <label for="">First name</label><br />
-            <input type="text" placeholder="Enter Your Name" id="name"><br /> -->
-            <!-- <label for="">Email</label> <br /> -->
-            <input type="email" placeholder="Enter email" id="email"><br />
-            <!-- <label for="">Password</label> <br /> -->
-            <input type="password" placeholder="Enter password forget password?" id="pass"><br />
-            <!-- <p>By signing up, I accept <span id>Terms of Service</span> and acknowledge the <span>Privacy
-                    policy</span></p> -->
-            <button id="submit">Login</button><br>
-            <p id="creat"> Don't have an accont?<span> <a href="Signup.html">Create one</span></a></p>
-        </form>
+
+    <div id="slidingnav">
+        <div>
+            <p>Free sample with order</p>
+        </div>
+    </div>
+
+    <!-- whishlist details -->
+    <div id="wishprodlist">
+        <h1>User whishlist Product</h1>
+        <h4>Total Wishlist items <span id="wishqty">0</span></h4>
+    </div>
+    <div id="wishlistcontainer">
 
     </div>
-    <!-- footer -->
     <footer>
         <div id="footer">
             <div>
@@ -197,7 +195,7 @@
 
         </div>
     </footer>
-
 </body>
-<script src="/login.js">
-</script>
+<script src="wishlist.js"></script>
+
+</html>

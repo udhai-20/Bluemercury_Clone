@@ -1,9 +1,12 @@
 let details = JSON.parse(localStorage.getItem("cartdetails")) || [];
+// let branddetails = JSON.parse(localStorage.getItem("Newbrand")) || [];
+
 display(details);
+
 function display(detail) {
   //   console.log(details);
-
   document.querySelector("#cartright").innerHTML = "";
+
   let sum = 0;
   let qty = 0;
   detail.forEach(function (elem, i) {
@@ -74,11 +77,10 @@ function discount(sum) {
     promocodvalid.innerText = "Enter a valid discount code or gift card";
   }
 }
+let loginuser = JSON.parse(localStorage.getItem("login"));
 
-// function addbtn(l) {
-//   qtty = l;
-
-//   console.log(qtty);
-//   //   let final = document.querySelector("#totalpriz");
-//   //   final.innerText = "$" + increasesum;
-// }
+if (loginuser != null) {
+  let name = document.getElementById("username");
+  name.style.color = "blue";
+  name.innerText = loginuser.name1;
+}

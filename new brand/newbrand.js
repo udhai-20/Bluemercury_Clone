@@ -1,85 +1,4 @@
-let ProductData = [
-  {
-    brand: "Kiehl's Since 1851",
-    name: "Ultimate Man Body Scrub Soap",
-    price: "15",
-    size: "Large",
-    productID: "prod_1",
-    Stock: "available",
-    img: "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-3700194718053-1_525x525.jpg?v=1655137288",
-  },
-  {
-    brand: "OSEA",
-    name: "Atmosphere Protection Cream",
-    price: "48",
-    size: "classic",
-    productID: "prod_2",
-    Stock: "available",
-    img: "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-812025010052-1_235x.jpg?v=1657340365",
-  },
-  {
-    brand: "NUFACE",
-    name: "NuFACE® Hydrating Aqua Gel",
-    price: "59",
-    size: "Large",
-    productID: "prod_3",
-    Stock: "soldout",
-    img: "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-size-169oz-850019720099-1_235x.jpg?v=1656386023",
-  },
-  {
-    brand: "TAMMY FENDER",
-    name: "Luminous Morning Crème",
-    price: "95",
-    size: "Large",
-    productID: "prod_4",
-    Stock: "available",
-    img: "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-853421004115-1_235x.jpg?v=1658261624",
-  },
-  {
-    brand: "SUPERGOOP!",
-    name: "PLAY Everyday Lotion SPF 50 with Sunflower Extract",
-    price: "58",
-    size: "Large",
-    productID: "prod_5",
-    Stock: "available",
-    img: "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-title-17oz-816218022969-1_235x.jpg?v=1656523215",
-  },
-  {
-    brand: "OSEA",
-    name: "Pseudo Citrine Lotion",
-    price: "60",
-    size: "Large",
-    productID: "prod_6",
-    Stock: "soldout",
-    img: "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-850018053587-1_235x.jpg?v=1653065275",
-  },
-  {
-    brand: "KIEHL'S SINCE 1851",
-    name: "Blue Astringent Herbal Lotion Toner",
-    price: "32",
-    size: "Large",
-    productID: "prod_7",
-    Stock: "available",
-    img: "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-size-169oz-3700194721619-1_235x.jpg?v=1652805785",
-  },
-  {
-    brand: "OSEA",
-    name: "Tripeptide-R Neck Repair",
-    price: "126",
-    size: "Large",
-    productID: "prod_8",
-    Stock: "available",
-    img: "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-3606000555396-1_550x.jpg?v=1653070650",
-  },
-  {
-    brand: "KIEHL'S SINCE 1851",
-    name: "Vitablast C® 20% Cream",
-    price: "96",
-    size: "Travel",
-    productID: "prod_9",
-    Stock: "available",
-    img: "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-817237011231-1_235x.jpg?v=1653068855",
-  },
+let ShopData = [
   {
     brand: "KIEHL'S SINCE 1851",
     name: "woman cotton off white",
@@ -210,18 +129,105 @@ let ProductData = [
     brand: "111SKIN",
     name: "woman cotton off white",
     price: "986",
-    size: "Large",
+    size: "S,X,L",
     productID: "prod_24",
     Stock: "available",
     img: "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-5060280370083-1_235x.jpg?v=1656378238",
   },
+  {
+    brand: "Kiehl's Since 1851",
+    name: "Ultimate Man Body Scrub Soap",
+    price: "15",
+    size: "Large",
+    productID: "prod_1",
+    Stock: "available",
+    img: "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-3700194718053-1_525x525.jpg?v=1655137288",
+  },
+  {
+    brand: "OSEA",
+    name: "Atmosphere Protection Cream",
+    price: "48",
+    size: "classic",
+    productID: "prod_2",
+    Stock: "available",
+    img: "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-812025010052-1_235x.jpg?v=1657340365",
+  },
+  {
+    brand: "NUFACE",
+    name: "NuFACE® Hydrating Aqua Gel",
+    price: "59",
+    size: "Large",
+    productID: "prod_3",
+    Stock: "soldout",
+    img: "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-size-169oz-850019720099-1_235x.jpg?v=1656386023",
+  },
+
+  {
+    brand: "TAMMY FENDER",
+    name: "Luminous Morning Crème",
+    price: "95",
+    size: "Large",
+    productID: "prod_4",
+    Stock: "available",
+    img: "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-853421004115-1_235x.jpg?v=1658261624",
+  },
+
+  {
+    brand: "SUPERGOOP!",
+    name: "PLAY Everyday Lotion SPF 50 with Sunflower Extract",
+    price: "58",
+    size: "Large",
+    productID: "prod_5",
+    Stock: "available",
+    img: "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-title-17oz-816218022969-1_235x.jpg?v=1656523215",
+  },
+
+  {
+    brand: "OSEA",
+    name: "Pseudo Citrine Lotion",
+    price: "60",
+    size: "Large",
+    productID: "prod_6",
+    Stock: "soldout",
+    img: "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-850018053587-1_235x.jpg?v=1653065275",
+  },
+
+  {
+    brand: "KIEHL'S SINCE 1851",
+    name: "Blue Astringent Herbal Lotion Toner",
+    price: "32",
+    size: "Large",
+    productID: "prod_7",
+    Stock: "available",
+    img: "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-size-169oz-3700194721619-1_235x.jpg?v=1652805785",
+  },
+
+  {
+    brand: "OSEA",
+    name: "Tripeptide-R Neck Repair",
+    price: "126",
+    size: "Large",
+    productID: "prod_8",
+    Stock: "available",
+    img: "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-3606000555396-1_550x.jpg?v=1653070650",
+  },
+  {
+    brand: "KIEHL'S SINCE 1851",
+    name: "Vitablast C® 20% Cream",
+    price: "96",
+    size: "Travel",
+    productID: "prod_9",
+    Stock: "available",
+    img: "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-817237011231-1_235x.jpg?v=1653068855",
+  },
 ];
 
 let details = JSON.parse(localStorage.getItem("cartdetails")) || [];
-display(ProductData);
+let wishdetails = JSON.parse(localStorage.getItem("whishlist")) || [];
+display(ShopData);
 
 function display(data) {
-  document.querySelector(".right").innerHTML = "";
+  document.querySelector(".brandright").innerHTML = "";
   // console.log(data);
   data.forEach(function (elem, i) {
     let prod = document.createElement("div");
@@ -238,8 +244,13 @@ function display(data) {
     bagbtn.addEventListener("click", function () {
       cartbtn(elem, i);
     });
-    prod.append(img, brand, name, price, bagbtn);
-    document.querySelector(".right").append(prod);
+    let wishbtn = document.createElement("button");
+    wishbtn.innerText = "Wishlist";
+    wishbtn.addEventListener("click", function () {
+      wishlistbtn(elem, i);
+    });
+    prod.append(img, brand, name, price, bagbtn, wishbtn);
+    document.querySelector(".brandright").append(prod);
   });
 }
 document
@@ -258,9 +269,9 @@ document
 function filterbysize() {
   let select = document.getElementById("filterbysize").value;
   if (select === "filterbysize") {
-    display(ProductData);
+    display(ShopData);
   } else {
-    let sizefilter = ProductData.filter(function (elem) {
+    let sizefilter = ShopData.filter(function (elem) {
       return select === elem.size;
     });
     display(sizefilter);
@@ -271,9 +282,9 @@ function filterbysize() {
 function filterbystock() {
   let select = document.getElementById("filterbystock").value;
   if (select === "filterbystock") {
-    display(ProductData);
+    display(ShopData);
   } else {
-    let stockfilter = ProductData.filter(function (elem) {
+    let stockfilter = ShopData.filter(function (elem) {
       return select === elem.Stock;
     });
     display(stockfilter);
@@ -284,9 +295,9 @@ function filterbystock() {
 function filterbrand() {
   let select = document.getElementById("filterbybrand").value;
   if (select === "filterbybrand") {
-    display(ProductData);
+    display(ShopData);
   } else {
-    let filtered = ProductData.filter(function (elem) {
+    let filtered = ShopData.filter(function (elem) {
       return select === elem.brand;
     });
     display(filtered);
@@ -298,20 +309,21 @@ function filterprice() {
   // console.log("select");
   let select = document.getElementById("filterbyprice").value;
   if (select === "ascending") {
-    ProductData.sort(function (a, b) {
+    ShopData.sort(function (a, b) {
       return +a.price - +b.price;
     });
-    display(ProductData);
-    console.log(ProductData);
+    display(ShopData);
+    console.log(ShopData);
   } else if (select === "descending") {
-    ProductData.sort(function (a, b) {
+    ShopData.sort(function (a, b) {
       return +b.price - +a.price;
     });
-    display(ProductData);
+    display(ShopData);
   } else {
     if (select === "filterbyprice") {
       // console.log(ProductData);
-      display(ProductData);
+      display(ShopData);
+      window.location.reload();
     }
   }
 }
@@ -320,15 +332,41 @@ function cartbtn(elem, i) {
   let flag = "false";
   for (let i = 0; i < details.length; i++) {
     if (elem.productID === details[i].productID) {
-      alert("Product Already added to bag");
       flag = "true";
-      return;
     }
   }
-  if (flag === "false") {
-    details.push(elem);
+  if (flag == "true") {
+    alert("Product Already added to bag");
+  } else if (flag == "false") {
     alert("Product added to bag");
+    details.push(elem);
     localStorage.setItem("cartdetails", JSON.stringify(details));
   }
-  // console.log(details);
+
+  //   console.log(details);
+}
+
+let loginuser = JSON.parse(localStorage.getItem("login"));
+
+if (loginuser != null) {
+  let name = document.getElementById("username");
+  name.style.color = "blue";
+  name.innerText = loginuser.name1;
+}
+function wishlistbtn(elem, i) {
+  let flag = "false";
+  for (let i = 0; i < wishdetails.length; i++) {
+    if (elem.productID === wishdetails[i].productID) {
+      flag = "true";
+    }
+  }
+  if (flag == "true") {
+    alert("Product Already added to wishlist");
+  } else if (flag == "false") {
+    alert("Product added to wishlist");
+    wishdetails.push(elem);
+    localStorage.setItem("whishlist", JSON.stringify(wishdetails));
+  }
+
+  console.log(wishdetails);
 }

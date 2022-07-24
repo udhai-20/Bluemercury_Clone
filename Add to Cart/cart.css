@@ -11,9 +11,13 @@
 #main>#cartleft {
     width: 25%;
     height: 100%;
-
     margin: auto;
     margin-top: 0px;
+}
+
+#main>#cartleft input {
+    margin-top: -20px;
+    margin-bottom: 20px;
 }
 
 * {
@@ -36,10 +40,10 @@
     gap: 20px;
 }
 
-/* #cartright div {
-    border: 1px solid rgb(21, 183, 62);
+#cartright p {
+    margin-bottom: 30px;
 
-} */
+}
 
 #cartright img {
     width: 100%;
@@ -94,4 +98,8 @@
     padding: 10px 30px;
     background-color: rgb(110, 110, 206);
     border: 0px;
+}
+
+.promocodetag {
+    margin-top: 15px;
 }
