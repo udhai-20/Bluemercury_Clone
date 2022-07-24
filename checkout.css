@@ -1,0 +1,67 @@
+#checkout {
+    width: 50%;
+    /* border: 1px solid rebeccapurple; */
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+
+}
+
+#checkout form {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid rebeccapurple; */
+}
+
+#checkout input {
+
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#checkout #submit {
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #12284c;
+}
+
+#checkout h1 {
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    /* background-color: #12284c; */
+    color: #12284c;
+}
+
+#cartone img {
+    display: block;
+    width: 20%;
+    margin: auto;
+    margin-bottom: -100px;
+
+}
+
+* {
+    font-family: Montserrat Light, sans-serif;
+    color: #12284c;
+}
+
+#checkout a {
+    text-decoration: none;
+}
+
+form>label {
+    margin-bottom: 16px;
+    font-size: 25px;
+    letter-spacing: .5px;
+}
+
+/* a
+*/
+form>p {
+    /* 
+    border: 1px solid red; */
+    margin-top: -10px;
+}
